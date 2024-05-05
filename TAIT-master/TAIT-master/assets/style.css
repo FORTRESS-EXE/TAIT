@@ -95,6 +95,22 @@
     margin-left: -1.111328125em;
     color: rgb(222, 199, 255);
 }
+.logo-and-text {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.logo {
+    margin-right: 20px; /* Adjust the spacing between logo and text */
+}
+.code {
+    margin-Right: auto; /* Move the code section to the right */
+}
+
+.text {
+    flex-grow: 1; /* Allow the text to grow and take up remaining space */
+}
+
 
 .icon-collec .path11:before {
     content: "\e917";
